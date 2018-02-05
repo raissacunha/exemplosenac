@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Exemplo formulário</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos/meuestilo.css">
+    </head>
+    <form> 
+        <table>
+            <tr>
+                <td> <label for="nome">Nome:</label></td>
+                <td> <input type="text"nome="nome" id="nome" placeholder="Seu nome aqui"> </td>
+            </tr>
+            <tr>
+                <td> <label for="endereço">Endereço:</label></td>
+                <td><input type="text" nome="endereço" id="endereço" placeholder="Ex: rua Paiatis, 478" required></td>   
+            </tr>
+            <tr>
+                <td> 
+                    <label for="Cidade">Cidade:</label>
+                    
+                </td>
+                <td>
+                    <select name="cidade" id="Cidade">
+                        <option disabled selected>Escolha a cidade</option>
+                        <optgroup label="Rio Grande do Norte">
+                        <option value="natal">Natal</option>
+                        <option value="mossoro">Mossoró</option>
+                        </optgroup>
+                        <optgroup label="Paraiba">
+                        <option value="joão pessoa">João Pessoa</option>
+                        <option value="capina grande">Capina Grande</option>
+                        </optgroup>
+                        <optgroup label="Pernambuco">
+                        <option value="recife">Recife</option>
+                        <option value="petrolina">Petrolina</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td> 
+                    <label for="sexo">Sexo:</label>
+                </td>
+                <td>  
+                <label class="sexo"><input type="radio" nome="Sexo" value="masculino"checked>Masculino</label>                  
+                <label class="sexo"><input type="radio" nome="Sexo" value="feminino"checked>Feminino</label>
+                <label class="sexo"><input type="radio" nome="Sexo" value="outros"checked>Outros</label>
+                </td>   
+            </tr>
+             <tr>
+                <td> 
+                    <label for="Interesse">Interesse:</label>
+                </td>
+                <td>  
+                <label><input type="checkbox" nome="esporte" value="Esporte"checked>Esportes</label>                  
+                <label><input type="checkbox" nome="filme" value="Filme"checked>Filmes</label>
+                <label><input type="checkbox" nome="livro" value="Livro"checked>Livros</label>
+                </td>   
+            </tr>
+            <tr>
+                
+                <td>
+                    <label for="Satisfação">Satisfação:</label>
+                </td>
+                
+                    <td><input type="range" nome="Satisfação" id="Satisfação" value="5" min="0" max="5" STEP="2"></td>
+               
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nascimento">Nascimento:</label>
+                </td>
+                
+                    <td><input type="date" nome="nascimento" id="Nascimento"></td>
+                
+            </tr>
+            <tr>
+                 <td>
+                    <label for="hora-agendamento">Hora Agendamento:</label>
+                </td>
+                
+                    <td><input type="time" nome="hora-agendamento" id="Nascimenthora-agendamento"></td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <label for="sugestão"> Sugestões:</label>
+                </td>
+                <td>
+                    <textarea class="borda-estilizada borda-arredondada" nome="sugestão" id=sugestão maxlength="5" rows="5"></textarea>
+                </td>
+             
+            
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="fonte-estilizada" type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    <input type="button" value="Exibir" onclick="alert('Botão de autodestruição!!!');">
+                </td>
+            </tr>
+        </table>
+      
+      
+    </form>
+    
+    <body>
+        
+        
+    </body>
+    
+</html>

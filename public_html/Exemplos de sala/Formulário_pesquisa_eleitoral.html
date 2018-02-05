@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+       
+        <title>Pesquisa Eleitoral</title>
+        <meta charset="UTF-8">
+        
+    </head>
+    
+    <body> 
+         <form> 
+        <table  align= center>
+            <tr>
+                    <th colspan="2">DADOS PESSOAIS</th>
+                </tr>
+            <tr>
+                <td> <label for="nome">Nome:</label></td>
+                <td> <input type="text"nome="nome" id="nome" placeholder="Ex:Raissa, João etc"></td>
+            </tr>
+            <tr>
+                <td> <label for="endereço">Endereço:</label></td>
+                <td><input type="text" nome="endereço" id="endereço" placeholder="Ex: rua Paiatis, 478" required></td>   
+            </tr>
+            <tr>
+                <td> 
+                    <label for="Cidade">Cidade:</label>
+                    
+                </td>
+                <td>
+                    <select name="cidade" id="Cidade">
+                        <option disabled selected>Escolha a cidade</option>
+                        <optgroup label="Rio Grande do Norte">
+                        <option value="natal">Natal</option>
+                        <option value="mossoro">Mossoró</option>
+                        </optgroup>
+                        <optgroup label="Paraiba">
+                        <option value="jãoo pessoa">João Pessoa</option>
+                        <option value="capina grande">Capina Grande</option>
+                        </optgroup>
+                        <optgroup label="Pernambuco">
+                        <option value="recife">Recife</option>
+                        <option value="petrolina">Petrolina</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+             <tr>
+                <td> 
+                    <label for="sexo">Sexo:</label>
+                </td>
+                <td>  
+                <label><input type="radio" nome="Sexo" value="masculino"checked>Masculino</label>                  
+                <label><input type="radio" nome="Sexo" value="feminino"checked>Feminino</label>
+                <label><input type="radio" nome="Sexo" value="outros"checked>Outros</label>
+                </td>   
+            </tr>
+             
+             
+            <tr>
+                <td> <label for="Email">Email:</label></td>
+                <td> <input type="text"nome="email" id="email"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Curso">Curso:</label>
+                </td>
+                
+                   <td>  
+                       <label><input type="checkbox" nome="Programador Web" value="Programador Web"checked>Programador Web</label>                  
+                       <label><input type="checkbox" nome="Editor de vídeo" value="Editor de Vídeo"checked>Editor de Vídeo</label> 
+                       <label><input type="checkbox" nome="Administrador de redes" value="Administrador de redes "checked>Administrador de redes</label> 
+                       <label><input type="checkbox" nome="Autocad 2D" value="Autocad 2D"checked>Autocad 2D</label> 
+                <label><input type="checkbox" nome="Programador de sistemas" value="Programador de sistemas"checked>Programador de sistemas</label> 
+                
+                </td>   
+                
+            </tr>
+            <tr>
+                 <td>
+                    <label for="Início do curso">Início do curso:</label>
+                </td>
+                
+                    <td><input type="date" nome="Início do curso" id="Inicio do curso"></td>
+            </tr>
+            <tr>
+                    <th colspan="2">ELEIÇÕES 2017</th>
+                </tr>
+            
+            <tr>
+                <td>
+                         <label for="Líder da turma">Líder da turma:</label>
+                   
+            
+                </td>
+                 <td>
+                    <select name="candidatos" id="Candidatos">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td>
+                <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                
+                <td><input type="text"nome="nome" id="nome"></td>
+                
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                         <label for="Vice-Líder">Vice-Líder:</label>
+                   
+            
+                </td>
+                 <td>
+                    <select name="Vice-Líder" id="Vice-Líder">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td>
+                 <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                <td> 
+                    <input type="text"nome="nome" id="nome">
+                </td>
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+            </tr>
+           
+            <tr>  
+                <td>
+                         <label for="Secretário">Secretário:</label>
+                   
+            
+                </td>
+            <td>
+                    <select name="Secretário" id="Secretário">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td>
+                 <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                <td> <input type="text"nome="nome" id="nome"</td>
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+               
+            </tr>
+                
+            <tr>
+                <td>
+                         <label for="Humorista">Humorista:</label>
+                   
+            
+                </td>
+               <td>
+                    <select name="Humorista" id="Humorista">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td>  
+                 <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                <td> <input type="text"nome="nome" id="nome"</td>
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                         <label for="Estiloso">Estiloso:</label>
+                   
+            
+                </td>
+                <td>
+                    <select name="Estiloso" id="Estiloso">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td> 
+                 <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                <td> <input type="text"nome="nome" id="nome"</td>
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+            </tr>
+                
+            <tr>
+                <td>
+                         <label for="Tímido">Tímido:</label>
+                   
+            
+                </td>
+                <td>
+                    <select name="Tímido" id="Tímido">
+                        <option disabled selected>Escolha um nome</option>
+                        
+                        <option value="Raissa">Raissa Cunha</option>
+                        <option value="Glaucio">Glaucio Galvão</option>
+                        
+                       
+                        <option value="Eddie">Eddie Monte</option>
+                        <option value="Victor">Victor Matheus</option>
+                        
+                        
+                        <option value="Eduardo">Eduardo</option>
+                        <option value="Ademir">Ademir Feliciano</option>
+                       
+                    </select>
+                </td> 
+                 <td>
+                     <label for="Intenções do voto">Intenções do voto:</label>
+                     
+                </td>
+                <td> <input type="text"nome="nome" id="nome"</td>
+                <td>
+                    <label for="outro">Outro:</label>
+                </td>
+                
+                <td>
+                     <td><input type="text"nome="nome" id="nome"></td>
+                </td>
+            </tr>
+                
+        
+            <tr>
+                <td>
+                    
+                    <label for="Deixe seu comentário:"> <b>Deixe seu comentário:</b></label>
+                    
+                </td>
+                <td>
+                    <textarea nome="escreva aqui" id=sugestão maxlength="5" rows="5"></textarea>
+                </td>
+             
+            
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    <input type="button" value="Exibir" onclick="alert('Botão de autodestruição!!!');">
+                </td>
+            </tr>
+        </table>
+      
+      
+    </form>
+        
+    </body>
+</html>
